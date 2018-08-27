@@ -1,0 +1,224 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Paws
+</name>
+</assembly>
+<members>
+<member name="T:Paws.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497053367_Update">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497053373_Settings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497053379_Play">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497053421_27">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497053503_Ok">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497066550_editor_folder_add_glyph">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497117509_delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497118240_178_Download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497408724_back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497408728_forward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497462010_179_Upload">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources._1497476362_text">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources.if_52_Cloud_Sync_183362">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources.if_home_326656">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources.if_ic_format_list_bulleted_48px_352389">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources.if_lock_24_103178">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources.if_search_stroked_293645">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Paws.My.Resources.Resources.unlock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Paws.MainForm.getSize(System.UInt64)">
+ <summary>
+ Returns file size in a more readable way
+ </summary>
+ <param name="s">File Size In Bytes</param>
+ <returns>String File Size</returns>
+</member>
+<member name="M:Paws.MainForm.checkNotFolder(System.String)">
+ <summary>
+ Checks whether a FTP url is a file or folder
+ </summary>
+ <param name="dir">URL of file/folder</param>
+ <returns>True if file, false if folder</returns>
+</member>
+<member name="M:Paws.MainForm.deleteDir(System.String)">
+ <summary>
+ Deletes selected folders and their content
+ </summary>
+</member>
+<member name="M:Paws.FTP.ListDirDetails(System.String)">
+ <summary>
+ Lists all file and directory details in a directory on FTP Server
+ </summary>
+ <param name="url">URL Of Directory To List</param>
+</member>
+<member name="M:Paws.FTP.GetSize(System.String)">
+ <summary>
+ Gets the size of a file in Bytes
+ </summary>
+ <param name="url">URL of file</param>
+ <returns>File size in Bytes</returns>
+</member>
+<member name="M:Paws.FTP.Move(System.String,System.String)">
+ <summary>
+ Moves a file or folder on Server
+ </summary>
+ <param name="url">Current URL of file/folder</param>
+ <param name="newurl">New URL of file/folder</param>
+ <returns>True if successful</returns>
+</member>
+<member name="M:Paws.FTP.FileExists(System.String)">
+ <summary>
+ Checks if a file exists on Server
+ </summary>
+ <param name="url">File URL to check</param>
+ <returns>True if file exists</returns>
+</member>
+<member name="M:Paws.FTP.DownloadFile(System.String,System.String)">
+ <summary>
+ Downloads a file from FTP Server
+ </summary>
+ <param name="url">File URL</param>
+ <param name="downloadPath">File Download Path</param>
+ <returns>True If Download Is Successful</returns>
+</member>
+<member name="M:Paws.FTP.UploadFile(System.String,System.String,System.String)">
+ <summary>
+ Uploads a file to FTP Server
+ </summary>
+ <param name="url">FileToUpload URL On FTP Server</param>
+ <param name="fileToUpload">Path Of File On The Computer</param>
+ <param name="fileNameOnServer">New file name on server</param>
+ <returns>True If Upload Is Successful</returns>
+</member>
+<member name="M:Paws.FTP.DeleteFile(System.String)">
+ <summary>
+ Deletes a file from FTP Server
+ </summary>
+ <param name="url">URL Of File To Delete</param>
+ <returns>True If File Deleted</returns>
+</member>
+<member name="M:Paws.FTP.RenameFile(System.String,System.String)">
+ <summary>
+ Renames a file on FTP Server
+ </summary>
+ <param name="url">URL Of File</param>
+ <param name="newname">New Name Of The File</param>
+ <returns></returns>
+</member>
+<member name="M:Paws.FTP.DirectoryExists(System.String)">
+ <summary>
+ Checks if a directory exists on Server
+ </summary>
+ <param name="url">URL of the directory to check</param>
+ <returns>True if directory exists</returns>
+</member>
+<member name="M:Paws.FTP.DownloadFolder(System.String,System.String)">
+ <summary>
+ Downloads a folder on Server
+ </summary>
+ <param name="url">URL of the folder to download</param>
+ <param name="downloadPath">Path of the folder on computer</param>
+ <returns>True if successful</returns>
+</member>
+<member name="M:Paws.FTP.MakeDir(System.String)">
+ <summary>
+ Creates a directory on FTP Server
+ </summary>
+ <param name="url">URL Of New Directory</param>
+ <returns>True If Directory Created</returns>
+</member>
+<member name="M:Paws.FTP.DeleteDir(System.String)">
+ <summary>
+ Deletes a directory from FTP Server
+ </summary>
+ <param name="url">URL Of Directory To Delete</param>
+ <returns>True If Directory Deleted</returns>
+</member>
+</members>
+</doc>
