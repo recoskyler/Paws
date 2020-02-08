@@ -4,7 +4,7 @@ A simple FTP file server explorer, and a backup tool you can use to backup your 
 
 ## Disclaimer
 
-I am not responsible for anything that happens to your computer, server, or anyyhing bad that happens. By downloading Paws, you aggree to this disclaimer.
+I am not responsible for anything that happens to your computer, server, or anything bad that happens. By downloading Paws, you agree to this disclaimer.
 
 ## Installation
 

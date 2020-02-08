@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+title: Paws
+description: A simple FTP file server explorer, and a backup tool you can use to backup your files/folders to a specific FTP server.
+show_downloads: true
+github:
+  download_url: https://github.com/recoskyler/Paws/blob/master/Paws_Installer.msi
+  repository_url: https://github.com/recoskyler/Paws
