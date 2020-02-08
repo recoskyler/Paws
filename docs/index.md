@@ -1,4 +1,4 @@
-# SABERTOOTH
+# PAWS
 
 A simple FTP file server explorer, and a backup tool you can use to backup your files/folders to a specific FTP server. You can stream video files on VLC player (if installed already) without having to download them. It is basically [FileZilla](https://filezilla-project.org/), but simpler, and with more user-friendly UI.
 
@@ -19,6 +19,6 @@ You can install it easily, and there shouldn't be any major bugs. I won't be mai
 
 ## EULA, LICENSE, PRIVACY POLICY
 
-By installing Sabertooth, you agree to the terms in EULA, license and the privacy policy.
+By installing Paws, you agree to the terms in EULA, license and the privacy policy.
 
 EULA, license and the privacy policy can be found [here](lapp.recoskyler.com).
