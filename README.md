@@ -1,5 +1,7 @@
 # Paws
 
+## THIS IS AN ABANDONED PROJECT, TRY AT YOUR OWN RISK
+
 A simple FTP file server explorer, and a backup tool you can use to backup your files/folders to a specific FTP server. You can stream video files on VLC player (if installed already) without having to download them. It is basically [FileZilla](https://filezilla-project.org/), but simpler, and with more user-friendly UI.
 
 ## Disclaimer
